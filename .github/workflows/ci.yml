@@ -5,12 +5,13 @@ Scan
 on:
 workflow_dispatch:
 
+
 jobs:
 apiiro - scan:
 name: Apiiro
 Build
 Scan
-runs - on: ubuntu - latest
+runs-on: self-hosted
 
 steps:
 # Apiiro API Build Scan
